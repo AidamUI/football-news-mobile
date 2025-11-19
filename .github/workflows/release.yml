@@ -60,3 +60,5 @@ jobs:
           name: "v${{ steps.version.outputs.version }} - ${{ steps.date.outputs.date }}"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.tag.outputs.tag }}
+
+# COMMENT TO TEST TRIGGER
